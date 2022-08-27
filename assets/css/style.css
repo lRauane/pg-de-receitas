@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --cor1: #733E10;
+    --cor2: #BF702A;
+    --cor3: #401801;
+    --cor4: #F2EEEB;
+    --cor5: #F2B885;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--cor3);
+    color: #fff;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul, 
+.menu li,
+.menu a{
+    list-style: none;
+    text-decoration: none;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    border-bottom: 1px solid var(--cor3);
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-size: 1.2em;
+}
+.menu li a:hover{
+    color: var(--cor5);
+    border-bottom:4px solid var(--cor5);
+}
+h3{
+    color: #401801;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    background-color: #F2B885;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--cor5);
+    max-width: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+p,
+ul,
+ol{
+    color: #F2EEEB;
+    line-height: 2.6em;
+}
+.section-elements p{
+    width: 550px;
+}
+.section-image{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-image img{
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.section-elements{
+    background-color: var(--cor2);
+    padding: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 900px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #401801;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #F2B885;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #3f2009;
+}
